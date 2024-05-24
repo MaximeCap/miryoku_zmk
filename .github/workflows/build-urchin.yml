@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build URCHIN Aurora Sweep'
+name: 'Build URCHIN'
 on: workflow_dispatch
 jobs:
   build:
