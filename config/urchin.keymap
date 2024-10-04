@@ -4,3 +4,4 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/34/ferris.h"
 #include "../miryoku/miryoku.dtsi"
+CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y
