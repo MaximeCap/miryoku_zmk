@@ -1,8 +1,12 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build URCHIN'
-on: workflow_dispatch
+name: "Build URCHIN"
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
 jobs:
   build:
     uses: ./.github/workflows/main.yml
